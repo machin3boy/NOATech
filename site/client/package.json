@@ -1,5 +1,5 @@
 {
-  "name": "noatech-vue-app",
+  "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
     "vite": "^3.2.3"
   }
 }
