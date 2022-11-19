@@ -1,7 +1,9 @@
 <template>
-    <div class="flex flex-col min-h-screen text-white">
-        <NavBar />
+    <div class="flex flex-col grow min-h-screen text-white">
+        <NavBar />  
+        <p> test </p>
     </div>
+    <p> test </p>
 </template>
 
 <script setup>
