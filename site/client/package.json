@@ -13,6 +13,7 @@
     "@heroicons/vue": "^2.0.13",
     "headlessui": "^0.0.0",
     "heroicons": "^2.0.13",
+    "tw-elements": "^1.0.0-alpha12",
     "vue": "^3.2.41"
   },
   "devDependencies": {

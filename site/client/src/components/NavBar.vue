@@ -12,6 +12,9 @@
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
+            <p class="font-medium mr-1">NOATech </p>
+          </div>
+          <div class="flex flex-shrink-0 items-center">
             <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
             <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
           </div>
@@ -21,13 +24,14 @@
             </div>
           </div>
         </div>
+
+        <!--
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <button type="button" class="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
             <span class="sr-only">View notifications</span>
             <BellIcon class="h-6 w-6" aria-hidden="true" />
           </button>
 
-          <!-- Profile dropdown -->
           <Menu as="div" class="relative ml-3">
             <div>
               <MenuButton class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
@@ -50,6 +54,7 @@
             </transition>
           </Menu>
         </div>
+        !--> 
       </div>
     </div>
 
@@ -68,9 +73,9 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
 
 
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'HOME', href: '#', current: true },
+  { name: 'ABOUT', href: '#', current: false },
+  { name: 'SOLUTIONS', href: '#', current: false },
+  { name: 'CONTACT', href: '#', current: false },
 ]
 </script>
