@@ -1,13 +1,67 @@
 <template>
-    <div class="flex flex-col grow min-h-screen text-white bg-orange-200 mb-10">
+    <div class="flex flex-col grow min-h-screen text-white bg-orange-200">
         <NavBar />  
         <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg">
           <ImageCarousel />
         </div>
-        <div class="flex flex-col wrap mx-10 mt-10 border-2 rounded-lg bg-red-300">
-          <div class="my-10">
-            <SimpleCard header="header text" body="body text" footer="footer text"/>
+        <div id="about us">
+          <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg bg-red-300">
+            <div class="flex flex-wrap justify-evenly">
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text" class="invisible"/>
+              </div>
+            </div>
+            <div class="flex flex-wrap justify-evenly">
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+            </div>          
+            <div class="flex flex-wrap justify-evenly">
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+            </div>           
           </div>
+        </div>        
+        <div id="services">
+          <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg bg-sky-200">
+            <div class="flex flex-wrap justify-evenly">
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text" class="invisible"/>
+              </div>
+            </div>
+            <div class="flex flex-wrap justify-evenly">
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+            </div>          
+            <div class="flex flex-wrap justify-evenly">
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+              <div class="my-10">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
+            </div>           
+          </div>
+        </div>
+        <div class="mt-10">
+          <Footer />
         </div>
     </div>
 </template>
@@ -16,6 +70,7 @@
 import NavBar from './components/NavBar.vue';
 import ImageCarousel from './components/ImageCarousel.vue';
 import SimpleCard from './components/SimpleCard.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <style scoped>
