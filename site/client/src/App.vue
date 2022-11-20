@@ -6,27 +6,22 @@
         </div>
         <div id="about us">
           <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg bg-red-300">
-            <div class="flex flex-wrap justify-evenly">
-              <div class="my-10">
+            <div class="flex mt-10 mx-auto md:ml-24 md:mr-auto">
+              <div class="my-10 mx-auto">
                 <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-              <div class="my-10">
-                <SimpleCard header="header text" body="body text" footer="footer text" class="invisible"/>
               </div>
             </div>
             <div class="flex flex-wrap justify-evenly">
-              <div class="my-10">
+              <div class="my-10 mx-auto">
                 <SimpleCard header="header text" body="body text" footer="footer text"/>
               </div>
-              <div class="my-10">
+              <div class="my-10 mx-auto">
                 <SimpleCard header="header text" body="body text" footer="footer text"/>
               </div>
-            </div>          
-            <div class="flex flex-wrap justify-evenly">
-              <div class="my-10">
+              <div class="my-10 mx-auto">
                 <SimpleCard header="header text" body="body text" footer="footer text"/>
               </div>
-              <div class="my-10">
+              <div class="my-10 mx-auto">
                 <SimpleCard header="header text" body="body text" footer="footer text"/>
               </div>
             </div>           
@@ -34,33 +29,38 @@
         </div>        
         <div id="services">
           <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg bg-sky-200">
+            <div class="flex mt-10 mx-auto md:ml-24 md:mr-auto">
+                <SimpleCard header="header text" body="body text" footer="footer text"/>
+              </div>
             <div class="flex flex-wrap justify-evenly">
-              <div class="my-10">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-              <div class="my-10">
-                <SimpleCard header="header text" body="body text" footer="footer text" class="invisible"/>
-              </div>
-            </div>
-            <div class="flex flex-wrap justify-evenly">
-              <div class="my-10">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-              <div class="my-10">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-            </div>          
-            <div class="flex flex-wrap justify-evenly">
-              <div class="my-10">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-              <div class="my-10">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-            </div>           
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+                <div class="my-10 mx-auto">
+                  <SimpleCard header="header text" body="body text" footer="footer text"/>
+                </div>
+              </div>           
           </div>
         </div>
-        <div class="mt-10">
+        <div class="mt-20">
           <Footer />
         </div>
     </div>
