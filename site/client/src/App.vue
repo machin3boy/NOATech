@@ -1,11 +1,11 @@
 <template>
-    <div class="flex flex-col grow min-h-screen text-white bg-orange-200">
+    <div class="flex flex-col grow min-h-screen text-white bg-[url('./assets/background.png')]">
         <NavBar class="sticky top-0 z-50"/>  
         <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg">
           <ImageCarousel />
         </div>
         <div id="about us">
-          <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg bg-red-300">
+          <div class="flex flex-col mx-10 mt-10 border-2 rounded-lg bg-red-300"> 
             <div class="flex mt-10 mx-auto md:ml-24 md:mr-auto">
               <div class="my-10 mx-auto">
                 <SimpleCard header="header text" body="body text" footer="footer text"/>
