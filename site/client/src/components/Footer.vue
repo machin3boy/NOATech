@@ -1,5 +1,5 @@
 <template>
-    <footer class="p-4 bg-black sm:p-6 dark:bg-gray-200">
+    <footer class="p-4 bg-black sm:p-6 dark:bg-orange-200">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="https://flowbite.com/" class="flex items-center">
