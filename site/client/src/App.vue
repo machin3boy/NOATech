@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col grow min-h-screen text-white bg-[url('./assets/background.png')]">
         <NavBar class="sticky top-0 z-50"/>  
-        <div class="flex flex-col mx-10 mt-10 border-b-4 border-black border-opacity-90 rounded-lg shadow-xl">
+        <div class="flex flex-col mx-10 mt-10 border-4 border-black border-opacity-90 rounded-lg shadow-xl">
           <ImageCarousel />
         </div>
         <div id="about us">
