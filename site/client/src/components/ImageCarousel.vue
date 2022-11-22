@@ -26,7 +26,7 @@
     <div class="carousel-inner relative w-full overflow-hidden">
       <div class="carousel-item active relative float-left w-full">
         <img
-          src="../assets/image.png"
+          src="../assets/image2.jpg"
           class="block w-full rounded-lg"
           alt="..."
         />
@@ -37,7 +37,7 @@
       </div>
       <div class="carousel-item relative float-left w-full">
         <img
-          src="../assets/image2.jpg"
+          src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
           class="block w-full"
           alt="..."
         />
@@ -48,7 +48,7 @@
       </div>
       <div class="carousel-item relative float-left w-full">
         <img
-          src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+          src="../assets/image2.jpg"
           class="block w-full"
           alt="..."
         />
