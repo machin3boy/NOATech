@@ -11,13 +11,15 @@
           </DisclosureButton>
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex flex-shrink-0 items-center">
-            <p class="font-medium mr-1 text-black">NOATech </p>
+          <div class="flex items-center">
+            <img class="block h-8 w-auto" src="../assets/NOATECH_eye.png" alt="Your Company" />
+            <img class="block h-8 w-auto" src="../assets/NOATECH_text.png" alt="Your Company" />
           </div>
-          <div class="flex flex-shrink-0 items-center">
-            <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
-            <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+          <!--
+          <div class="flex items-center invisible md:visible">
+            <img class="block h-8 w-auto" src="../assets/NOATECH_text.png" alt="Your Company" />
           </div>
+        -->
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-gray-700 hover:text-black', 'px-3 py-2 rounded-md text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
