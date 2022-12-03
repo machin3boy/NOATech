@@ -2,7 +2,7 @@
 
   <div
     id="carouselDarkVariant"
-    class="carousel slide carousel-fade carousel-dark relative"
+    class="carousel slide carousel-fade relative"
     data-bs-ride="carousel"
   >
     <!-- Indicators -->
@@ -31,7 +31,7 @@
       <!-- Single item -->
       <div class="carousel-item active relative float-left w-full">
         <img
-          src="../assets/image2.jpg"
+          src="../assets/image.png"
           class="block w-full"
           alt="Motorbike Smoke"
         />
@@ -44,7 +44,7 @@
       <!-- Single item -->
       <div class="carousel-item relative float-left w-full">
         <img
-          src="../assets/image2.jpg"
+          src="../assets/image2.png"
           class="block w-full"
           alt="Mountaintop"
         />
@@ -57,7 +57,7 @@
       <!-- Single item -->
       <div class="carousel-item relative float-left w-full">
         <img
-          src="../assets/image2.jpg"
+          src="../assets/image3.png"
           class="block w-full"
           alt="Woman Reading a Book"
         />
