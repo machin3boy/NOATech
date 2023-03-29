@@ -3,7 +3,7 @@
     class="block rounded-xl border border-gray-800 bg-gray-900 p-4 shadow-xl sm:p-6 lg:p-8"
     href=""
   >
-    <img src="src/assets/info.svg" class="h-8 w-8"/>
+    <img src="../assets/info.svg" class="h-8 w-8"/>
 
     <h3 class="mt-3 text-lg font-bold text-white sm:text-xl">
       Site Under Maintenance
