@@ -10,7 +10,7 @@
     </h3>
 
     <p class="mt-4 text-sm text-gray-300">
-      For enquiries, please contact Reuben - rjs@noatech.com.auFor any urgent inquiries please contact rjs@noatech.com.au
+      For enquiries, please contact Reuben - rjs@noatech.com.au
     </p>
   </a>
 </template>
