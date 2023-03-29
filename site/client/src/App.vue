@@ -1,78 +1,25 @@
 <template>
-    <div class="flex flex-col grow min-h-screen text-white bg-[url('./assets/background.png')]">
-        <NavBar class="sticky top-0 z-50"/>  
-        <div class="flex flex-col mx-10 mt-10 border-4 border-black border-opacity-90 rounded-lg shadow-xl">
+  <div class="flex flex-col grow min-h-screen text-white bg-[url('./assets/background.png')]">
+      <NavBar class="sticky top-0 z-50"/>  
+      <div class="flex justify-center mx-auto mt-20 w-3/4">
+        <Card />
+      </div>
+      <div class="flex justify-center mx-auto mt-20 mb-auto w-4/5">
+        <div class="flex flex-col mt-auto border-4 border-black border-opacity-90 rounded-lg shadow-xl mb-auto">
           <ImageCarousel />
         </div>
-        <div id="about us">
-          <div class="flex flex-col mx-10 mt-10 border-4 border-black border-opacity-90 rounded-lg shadow-xl bg-gradient-to-r from-indigo-300 to-cyan-300"> 
-            <div class="flex mt-10 mx-auto md:ml-24 md:mr-auto">
-              <div class="my-10 mx-auto">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-            </div>
-            <div class="flex flex-wrap justify-evenly">
-              <div class="my-10 mx-auto">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-              <div class="my-10 mx-auto">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-              <div class="my-10 mx-auto">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-              <div class="my-10 mx-auto">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-            </div>           
-          </div>
-        </div>        
-        <div id="services">
-          <div class="flex flex-col mx-10 mt-10 border-4 border-black border-opacity-90 rounded-lg bg-gradient-to-r from-red-400 to-red-300">
-            <div class="flex mt-10 mx-auto md:ml-24 md:mr-auto">
-              <div class="my-10 mx-auto">
-                <SimpleCard header="header text" body="body text" footer="footer text"/>
-              </div>
-            </div>
-            <div class="flex flex-wrap justify-evenly">
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-                <div class="my-10 mx-auto">
-                  <SimpleCard header="header text" body="body text" footer="footer text"/>
-                </div>
-              </div>           
-          </div>
-        </div>
-        <div class="mt-20">
-          <Footer />
-        </div>
-    </div>
+      </div>
+      <Footer class="sticky mt-20 bottom-0 z-50" />
+  </div>
 </template>
 
 <script setup>
 import NavBar from './components/NavBar.vue';
 import ImageCarousel from './components/ImageCarousel.vue';
 import SimpleCard from './components/SimpleCard.vue';
+import Card from './components/Card.vue';
 import Footer from './components/Footer.vue';
+
 </script>
 
 <style scoped>
