@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "noatech",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,19 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.4",
-    "@heroicons/vue": "^2.0.13",
-    "headlessui": "^0.0.0",
-    "heroicons": "^2.0.13",
-    "phosphor-icons": "^1.4.2",
-    "tw-elements": "^1.0.0-alpha12",
-    "vue": "^3.2.41"
+    "flowbite": "^1.6.4",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.2.0",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.19",
-    "tailwindcss": "^3.2.4",
-    "vite": "^3.2.3"
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.2.0"
   }
 }

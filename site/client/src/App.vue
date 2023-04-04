@@ -1,30 +1,15 @@
-<template>
-  <div class="flex flex-col grow min-h-screen text-white bg-[url('./assets/background.png')]">
-      <NavBar class="sticky top-0 z-50"/>  
-
-      <div class="flex justify-center mx-auto mt-20 mb-auto w-3/4" v-if="['#/', '#', ''].includes(currentPath)">
-        <Card />
-      </div>
-      <!--
-      <div class="flex justify-center mx-auto mt-20 mb-auto w-4/5">
-        <div class="flex flex-col mt-auto border-4 border-black border-opacity-90 rounded-lg shadow-xl mb-auto">
-          <ImageCarousel />
-        </div>
-      </div>
-      -->
-      <Footer class="sticky mt-auto bottom-0 z-50" />
-  </div>
-</template>
-
 <script setup>
+import NavBar from './components/NavBar.vue'
+import Footer from './components/Footer.vue'
+import MaintenanceCard from './components/MaintenanceCard.vue'
 
-import { ref, computed, h } from "vue";
+import { onMounted, ref } from 'vue'
+import { initFlowbite } from 'flowbite'
 
-import NavBar from './components/NavBar.vue';
-import ImageCarousel from './components/ImageCarousel.vue';
-import SimpleCard from './components/SimpleCard.vue';
-import Card from './components/Card.vue';
-import Footer from './components/Footer.vue';
+// initialize components based on data attribute selectors
+onMounted(() => {
+    initFlowbite();
+});
 
 const currentPath = ref(window.location.hash || '#');
 
@@ -37,5 +22,18 @@ window.addEventListener('hashchange', () => {
 
 </script>
 
-<style scoped>
-</style>
+<template>
+  
+  <div class="flex flex-col min-h-screen bg-gray-200" style="background-image: url('/src/assets/background.png')">
+
+    <NavBar />
+
+    <div class="mt-auto mb-auto justify-center w-3/4 mx-auto" v-if="['#/home', '#/', '#', ''].includes(currentPath)">
+      <MaintenanceCard class="mt-20 mb-20"/>
+    </div>
+
+    <Footer class="mt-auto bottom-0 sticky"/>
+    
+  </div>
+</template>
+
