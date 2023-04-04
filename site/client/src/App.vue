@@ -24,7 +24,7 @@ window.addEventListener('hashchange', () => {
 
 <template>
   
-  <div class="flex flex-col min-h-screen bg-gray-200" style="background-image: url('/src/assets/background.png')">
+  <div class="flex flex-col min-h-screen bg-[url('./assets/background.png')]">
 
     <NavBar />
 
