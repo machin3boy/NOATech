@@ -26,8 +26,8 @@ window.addEventListener('hashchange', () => {
   <div class="flex flex-col min-h-screen bg-cover bg-[url('./assets/background_2x2_purple_dark.png')]">
     <NavBar />
     <div class="flex-1 flex justify-center items-center" v-if="['#/home', '#/', '#', ''].includes(currentPath)">
-      <MaintenanceCard class="mt-20 mb-20" />
+      <MaintenanceCard class="mt-20 mb-20 mx-5" />
     </div>
-    <Footer class="mt-auto bottom-0 sticky" />
+    <Footer class="mt-auto bottom-0 sticky mb-2" />
   </div>
 </template>
